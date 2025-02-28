@@ -2154,6 +2154,11 @@ input, select, textarea {
 		ul li {
 			padding-left: 0.5em;
 		}
+		ul.list li{
+			list-style: none;
+			width: auto;
+			float: center;
+		  }
 
 		ul.alt {
 			list-style: none;
@@ -2482,6 +2487,32 @@ input, select, textarea {
 			font-size: 1.35em;
 		}
 
+
+		input[type="submit"].primary1,
+		input[type="reset"].primary1,
+		input[type="button"].primary1,
+		button.primary1,
+		.button.primary1 {
+			background-color: #126264;
+			box-shadow: none !important;
+			color: #ffffff !important;
+		}
+
+			input[type="submit"].primary1:hover,
+			input[type="reset"].primary1:hover,
+			input[type="button"].primary1:hover,
+			button.primary1:hover,
+			.button.primary1:hover {
+				background-color: #81a4a1 !important;
+			}
+
+			input[type="submit"].primary1:active,
+			input[type="reset"].primary1:active,
+			input[type="button"].primary1:active,
+			button.primary1:active,
+			.button.primary1:active {
+				background-color: #283935 !important;
+			}
 		input[type="submit"].primary,
 		input[type="reset"].primary,
 		input[type="button"].primary,
@@ -2871,8 +2902,9 @@ input, select, textarea {
 
 				.wrapper.style1 select option {
 					color: #ffffff;
-					background: #21b2a6;
+					background: #98cdee;
 				}
+
 
 			.wrapper.style1 input[type="checkbox"] + label,
 			.wrapper.style1 input[type="radio"] + label {
@@ -3968,6 +4000,18 @@ input, select, textarea {
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding-top: 0;
+	}
+
+	body.landing #apage-wrapper {
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/desk.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/desk.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/desk.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/desk.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
